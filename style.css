@@ -506,10 +506,21 @@ p {
     font-family: "Inter", sans-serif;
 
 }
-.copy-right{
+
+.copy-right {
     text-align: center;
     margin-top: 50px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #3A3A3A;
+}
+
+.copy-right a {
+    color: #3A3A3A;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.copy-right a:hover {
+    color: #1FA9FF;
 }
